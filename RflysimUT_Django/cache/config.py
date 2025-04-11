@@ -1,0 +1,7 @@
+G_REDIS_HOST = 'localhost'
+G_REDIS_PORT = 6379
+G_REDIS_DB = 0
+G_REDIS_PW = ""
+
+IP = "127.0.0.1"
+
