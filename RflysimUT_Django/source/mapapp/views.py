@@ -6,6 +6,7 @@ from rest_framework.renderers import TemplateHTMLRenderer, JSONRenderer
 from source.air_road.models import Airports, Nodes, Permissions, Layers, Edges
 from django.shortcuts import render
 from source.proposal.models import Proposals
+from source.flight_plan.models import FlightRequirements
 
 
 class ClickAirportAPIView(APIView):
@@ -152,6 +153,7 @@ class DeleteAllAPIView(APIView):
             Airports.objects.all().delete()
             Edges.objects.all().delete()
             Nodes.objects.all().delete()
+            FlightRequirements.objects.all().delete()
             return Response({'success': True, 'message': 'All data cleared'}, status=status.HTTP_200_OK)
         else:
             return Response({'success': False}, status=status.HTTP_400_BAD_REQUEST)
