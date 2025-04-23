@@ -3,13 +3,13 @@ from cache.write_to_redis import refresh_redis
 from cache.write_to_redis import write_to_redis
 from cache.redis_db import redis_db as rdb
 from cache.config import *
-from source.proposal.models import Proposals
 import django
 
 
 # 初始化django
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "RflysimUT.settings")
 django.setup()
+from source.proposal.models import Proposals
 # 连接到redis
 cdb_client = rdb(host=G_REDIS_HOST, port=G_REDIS_PORT, db=G_REDIS_DB, password=G_REDIS_PW) # 存储数据库数据的redis库
 drone_db = rdb(host=G_REDIS_HOST, port=G_REDIS_PORT, db=G_REDIS_DB + 1, password=G_REDIS_PW) # 存储无人机实时信息的redis库
