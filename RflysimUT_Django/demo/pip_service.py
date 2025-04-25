@@ -10,13 +10,13 @@ client_pip = airsim.MultirotorClient(IP)
 client_pip.confirmConnection()
 
 
-def pip_cre_with_color(node1, node2, node1_name, node2_name, color):
+def pip_cre_with_color(client, node1, node2, node1_name, node2_name, color, width=15, height=20):
     """创建航路管道，输入为航路两端节点坐标、名称、管道颜色"""
     # 计算节点之间的距离
     length = math.sqrt((node2[0] - node1[0])**2 + (node2[1] - node1[1])**2)
 
     # 设置飞行路径的尺度
-    pip_scale = airsim.Vector3r(length-20*math.sqrt(3), 15, 20)
+    pip_scale = airsim.Vector3r(length-20*math.sqrt(3), width, height)
 
     # 计算飞行路径的中心点
     pip_cen = [(node2[0] + node1[0]) / 2, (node2[1] + node1[1]) / 2, node1[2]]  # 高度保持不变
@@ -30,7 +30,7 @@ def pip_cre_with_color(node1, node2, node1_name, node2_name, color):
                            pip_orientation)
 
     # 通过AirSim模拟器添加管道到UE
-    client_pip.addFlightPip(f'{node1_name}to{node2_name}', pip_pose, pip_scale, color, cube=True)
+    client.addFlightPip(f'{node1_name}to{node2_name}', pip_pose, pip_scale, color, cube=True)
     print(f'{node1_name}to{node2_name}')
 
 
@@ -83,7 +83,7 @@ def dynamic_change_pipe(pip_name):  # 这个函数不涉及管控可以跳过，
         nodes.append(node)
 
     client_pip.delFlightPip(pip_name)
-    pip_cre_with_color(node1=nodes[0], node2=nodes[1], node1_name=node_names[1], node2_name=node_names[0], color=color2)
+    pip_cre_with_color(client_pip, node1=nodes[0], node2=nodes[1], node1_name=node_names[1], node2_name=node_names[0], color=color2)
 
 
 # # 添加航路管道
@@ -97,7 +97,7 @@ for edge in edges_dict:  # 遍历航路字典
     if f'{end_node}to{start_node}' in pip_flag:  # 确保 还未创建 与该航路反向的航路管道
         continue
     # 通过Airsim模拟器,创建航路管道到UE
-    pip_cre_with_color(start_node, end_node, f'{start_node}', f'{end_node}', color1)
+    pip_cre_with_color(client_pip, start_node, end_node, f'{start_node}', f'{end_node}', color1)
     pip_flag[f'{start_node}to{end_node}'] = 1  # 标注已创建该航路管道
     nodes_dict[start_node_id] = start_node  # 将节点坐标信息存入nodes_dict字典
     nodes_dict[end_node_id] = end_node  # 将节点坐标信息存入nodes_dict字典
