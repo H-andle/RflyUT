@@ -1,0 +1,44 @@
+{
+    "SettingsVersion": 1.2,
+    "SimMode": "Multirotor",
+    "ClockType": "SteppableClock",
+    "CameraDefaults": {
+        "CaptureSettings": [
+            {
+                "ImageType": 0,
+                "Width": 1280,
+                "Height": 720
+            }
+        ]
+    },
+    "Vehicles": {
+        "drone0": {
+            "VehicleType": "SimpleFlight",
+            "X": 0,
+            "Y": 0,
+            "Z": -1,
+            "AutoCreate": true,
+            "Cameras": {
+            },
+            "Sensors": {
+                "LidarSensor1": {
+                    "SensorType": 6,
+                    "Enabled": true,
+                    "NumberOfChannels": 16,
+                    "RotationsPerSecond": 10,
+                    "PointsPerSecond": 100000,
+                    "X": 0, "Y": 0, "Z": 0,
+		    "VerticalFOVUpper": -1,
+                    "VerticalFOVLower": 1,
+                    "DrawDebugPoints": false,
+                    "DataFrame": "SensorLocalFrame"
+                },
+                "Barometer": {
+                    "SensorType": 1,
+                    "Enabled": true,
+                    "PressureFactorSigma": 0.0001825
+                }
+            }
+        }
+    }
+}

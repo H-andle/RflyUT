@@ -1,0 +1,1216 @@
+{
+    "SettingsVersion": 1.2,
+    "SimMode": "Multirotor",
+    "ClockType": "SteppableClock",
+    "CameraDefaults": {
+        "CaptureSettings": [
+            {
+                "ImageType": 0,
+                "Width": 1280,
+                "Height": 720
+            }
+        ]
+    },
+    "Vehicles": {
+        "0": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                            },
+            "Sensors": {
+                            }
+        },
+        "1": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+                           }
+        },
+        "2": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+                             }
+        },
+        "3": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+            }
+        },
+        "4": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                            },
+            "Sensors": {
+                            }
+        },
+        "5": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+                           }
+        },
+        "6": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+                             }
+        },
+        "7": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+            }
+        },
+        "8": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                            },
+            "Sensors": {
+                            }
+        },
+        "9": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+                           }
+        },
+        "10": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+                             }
+        },
+        "11": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+            }
+        },
+        "12": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                            },
+            "Sensors": {
+                            }
+        },
+        "13": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+                           }
+        },
+        "14": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+                             }
+        },
+        "15": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+            }
+        },
+        "16": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+                             }
+        },
+        "17": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+            }
+        },
+        "18": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                            },
+            "Sensors": {
+                            }
+        },
+        "19": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+                           }
+        },
+        "20": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                            },
+            "Sensors": {
+                            }
+        },
+        "21": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+                           }
+        },
+        "22": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+                             }
+        },
+        "23": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+            }
+        },
+        "24": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                            },
+            "Sensors": {
+                            }
+        },
+        "25": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+                           }
+        },
+        "26": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+                             }
+        },
+        "27": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+            }
+        },
+        "28": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                            },
+            "Sensors": {
+                            }
+        },
+        "29": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+                           }
+        },
+        "30": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                            },
+            "Sensors": {
+                            }
+        },
+        "31": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+                           }
+        },
+        "32": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+                             }
+        },
+        "33": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+            }
+        },
+        "34": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                            },
+            "Sensors": {
+                            }
+        },
+        "35": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+                           }
+        },
+        "36": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+                             }
+        },
+        "37": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+            }
+        },
+        "38": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                            },
+            "Sensors": {
+                            }
+        },
+        "39": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+                           }
+        },
+        "40": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                            },
+            "Sensors": {
+                            }
+        },
+        "41": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+                           }
+        },
+        "42": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+                             }
+        },
+        "43": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+            }
+        },
+        "44": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                            },
+            "Sensors": {
+                            }
+        },
+        "45": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+                           }
+        },
+        "46": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+                             }
+        },
+        "47": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+            }
+        },
+        "48": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                            },
+            "Sensors": {
+                            }
+        },
+        "49": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+                           }
+        },
+        "50": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                            },
+            "Sensors": {
+                            }
+        },
+        "51": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+                           }
+        },
+        "52": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+                             }
+        },
+        "53": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+            }
+        },
+        "54": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                            },
+            "Sensors": {
+                            }
+        },
+        "55": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+                           }
+        },
+        "56": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+                             }
+        },
+        "57": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+            }
+        },
+        "58": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                            },
+            "Sensors": {
+                            }
+        },
+        "59": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+                           }
+        },
+        "60": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+                             }
+        },
+        "61": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+            }
+        },
+        "62": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                            },
+            "Sensors": {
+                            }
+        },
+        "63": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+                           }
+        },
+        "64": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+                             }
+        },
+        "65": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+            }
+        },
+        "66": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+                             }
+        },
+        "67": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+            }
+        },
+        "68": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                            },
+            "Sensors": {
+                            }
+        },
+        "69": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+                           }
+        },
+        "70": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                            },
+            "Sensors": {
+                            }
+        },
+        "71": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+                           }
+        },
+        "72": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+                             }
+        },
+        "73": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+            }
+        },
+        "74": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                            },
+            "Sensors": {
+                            }
+        },
+        "75": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+                           }
+        },
+        "76": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+                             }
+        },
+        "77": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+            }
+        },
+        "78": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                            },
+            "Sensors": {
+                            }
+        },
+        "79": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+                           }
+        },
+        "80": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                            },
+            "Sensors": {
+                            }
+        },
+        "81": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+                           }
+        },
+        "82": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+                             }
+        },
+        "83": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+            }
+        },
+        "84": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                            },
+            "Sensors": {
+                            }
+        },
+        "85": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+                           }
+        },
+        "86": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+                             }
+        },
+        "87": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+            }
+        },
+        "88": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                            },
+            "Sensors": {
+                            }
+        },
+        "89": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+                           }
+        },
+        "90": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                            },
+            "Sensors": {
+                            }
+        },
+        "91": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+                           }
+        },
+        "92": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+                             }
+        },
+        "93": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+            }
+        },
+        "94": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                            },
+            "Sensors": {
+                            }
+        },
+        "95": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+                           }
+        },
+        "96": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+                             }
+        },
+        "97": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+            }
+        },
+        "98": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                            },
+            "Sensors": {
+                            }
+        },
+        "99": {
+            "VehicleType": "SimpleFlight",
+	    "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "AutoCreate": true,
+            "Cameras": {
+                           },
+            "Sensors": {
+                           }
+        }
+    }
+}
