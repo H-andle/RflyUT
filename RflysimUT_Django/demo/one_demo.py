@@ -1,7 +1,7 @@
 import airsim
 import time
 
-name = 'drone0'
+name = 'SimpleFlight'
 client = airsim.MultirotorClient()
 client.confirmConnection()
 client.enableApiControl(True, vehicle_name=name)
@@ -17,4 +17,5 @@ while True:
     client.moveToPositionAsync(1, 1, -124, 5, vehicle_name=name).join()
     client.moveToPositionAsync(1, 1, -5, 5, vehicle_name=name).join()
     time.sleep(10)
+
 
