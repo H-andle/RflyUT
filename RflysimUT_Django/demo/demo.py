@@ -98,22 +98,20 @@ def run(client, drone, num):
                     # 控制无人机移动到最终位置上方5m处
                     client.moveToPositionAsync(final_positions[drone].x_val-initial_positions[drone].x_val,
                                                final_positions[drone].y_val-initial_positions[drone].y_val, -5, 10,
-                                               vehicle_name=f'drone_{drone}')
-                    time.sleep(20)  # 等待到达指定位置
+                                               vehicle_name=f'drone_{drone}').join()
                     # 执行放货动作
                     client.dropBox(f'drone_{drone}', land_ports[drone])
-                    time.sleep(5)  # 等待放货完成
-                    client.landAsync(vehicle_name = f'drone_{drone}')  # 控制无人机降落
-                    time.sleep(5)  # 等待降落完成
+                    time.sleep(10)  # 等待放货完成
+                    client.landAsync(vehicle_name = f'drone_{drone}').join()  # 控制无人机降落
                     cdb_client.rdb.delete(f'{proposal_id}:drone:{drone}')  # 删除redis中该无人机信息
                     cdb_client.rdb.delete(f'{proposal_id}:flight_plan:{drones[drone][3]}')  # 删除redis中该无人机信息
-                    finish_que.append([drone, land_ports[drone]])  # 将[无人机id，终点机场名称]存入完成任务队列finish_que中
+                    finish_info = [drone, land_ports[drone], num]  # 将需要存入完成任务队列的信息提前保存
                     del drones_pos[drone]  # 删除无人机实时位置字典drones_pos中该无人机的信息
                     del drones[drone]  # 删除drones中该无人机的信息
                     del takeoff_ports[drone]  # 删除起飞机场字典takeoff_ports中该无人机的信息
-                    que[land_ports[drone]].append(num)  # 将该无人机在终点机场中占用的位置空出
                     del land_ports[drone]  # 删除降落机场字典land_ports中该无人机的信息
                     drone_db.rdb.delete(f'{proposal_id}:drone_current:{drone}')  # 删除redis中该无人机的实时位置信息
+                    finish_que.append(finish_info)  # 将[无人机id，终点机场名称，占用机场位置]存入完成任务队列finish_que中
                     break
 
             time.sleep(time_step)
@@ -152,7 +150,7 @@ def AddDrones():  # 该功能可选，但是使用该功能会导致数据库飞
         for land_drone in land_ports_copy:
             ports_count[land_ports_copy[land_drone]] += 1  # 计数，有多少无人机以该机场为终点
         if finish_que:  # if 队列中有已完成任务的无人机
-            [finish_drone, finish_port] = finish_que.pop(0)  # 弹出一个已完成任务的无人机
+            [finish_drone, finish_port, finish_num] = finish_que.pop(0)  # 弹出一个已完成任务的无人机
             port_flag = False  # 标注是否为该无人机分配好新任务
             while not port_flag:
                 for port in ports_count:  # 遍历所有机场
@@ -170,14 +168,12 @@ def AddDrones():  # 该功能可选，但是使用该功能会导致数据库飞
                                                    end_airport=land_airport, type='0', end_time=current_time)
             flight_req_sample.save()  # 创建一个新的飞行任务
             print(f'new requirement has been created for drone_{finish_drone}')
-            finish_num = que[takeoff_ports[finish_drone]].pop(0)  # 在起飞机场内给该无人机分配一个起飞位置
             # 更新新任务的出发点坐标到start_positions
             start_positions[finish_drone] = airsim.Vector3r(places[takeoff_ports[finish_drone]][finish_num][0],
                                                        places[takeoff_ports[finish_drone]][finish_num][1],
                                                        places[takeoff_ports[finish_drone]][finish_num][2])
             # 控制无人机起飞
-            clients[finish_drone].takeoffAsync(vehicle_name=f'drone_{finish_drone}')
-            time.sleep(5)  # 等待起飞完成
+            clients[finish_drone].takeoffAsync(vehicle_name=f'drone_{finish_drone}').join()
             # 启动无人机控制线程
             t_rerun = threading.Thread(target=run, args=[clients[finish_drone], finish_drone, finish_num])
             t_rerun.start()
@@ -219,10 +215,9 @@ if __name__ == "__main__":
                     clients[drone].enableApiControl(True, vehicle_name=f'drone_{drone}')
                     # 解锁无人机
                     clients[drone].armDisarm(True, vehicle_name=f'drone_{drone}')
-                    time.sleep(2)
+                    time.sleep(1)
                     # 控制无人机起飞
-                    clients[drone].takeoffAsync(vehicle_name=f'drone_{drone}')
-                    time.sleep(5)  # 等待起飞完成
+                    clients[drone].takeoffAsync(vehicle_name=f'drone_{drone}').join()
                     # 启动一个无人机控制线程，传入参数有该无人机的client、无人机id、该无人机在起飞机场中分配到的位置
                     t_run = threading.Thread(target=run, args=[clients[drone], drone, num])
                     t_run.start()
