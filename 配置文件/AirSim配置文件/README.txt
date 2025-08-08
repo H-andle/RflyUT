@@ -1,0 +1,12 @@
+1、AirSim配置文件settings.json路径：
+	windows系统默认路径：此电脑/文档/AirSim/settings.json
+2、使用方式
+	AirSim配置文件为自动生成，所有环境配置完成后按照上述路径查找，或在搜索栏直接搜索settings.json文件或AirSim文件夹
+	找到settings.json文件后，用课程资料当前目录下的settings-x.json文件，替换掉默认生成的settings.json文件，并重命名为settings.json
+3、课程资料中的AirSim配置文件介绍
+	settings-lidar.json：打开UE时自动创建一个名为drone0的无人机，并配置了该无人机的激光雷达传感器，需要调用激光雷达传感器数据时使用该配置文件；
+	settings-px4.json：打开UE时自动创建一个名为px4的无人机，该无人机可连接飞控进行硬件在环仿真；
+	settings-20.json：AirSim模拟器默认可同时飞5架无人机，当同时飞行的无人机超过5架时，需要在settings.json中配置。该文件配置了20架无人机，打开UE时自动创建在同一位置，无需理会这些自动创建的冗余无人机。使用该文件，可通过代码同时飞24架无人机。
+	settings-50.json：类似的，该文件配置了50架无人机，可同时飞54架无人机。
+	settings-100.json：类似的，该文件配置了100架无人机，可同时飞104架无人机。
+	settings-SimpleFlight.json：与初始状态自动生成的AirSim配置文件相同，无任何配置，打开UE会自动创建一个名为SimpleFlight的无人机。
